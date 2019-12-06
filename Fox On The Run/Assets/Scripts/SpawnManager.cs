@@ -25,6 +25,7 @@ public class SpawnManager : MonoBehaviour
         {
             int obstacleIndex = Random.Range(0, obstaclePrefabs.Length);
             Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+
             Instantiate(obstaclePrefabs[obstacleIndex], spawnPos, obstaclePrefabs[obstacleIndex].transform.rotation);
         }
     }
