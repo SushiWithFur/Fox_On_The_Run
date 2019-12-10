@@ -11,11 +11,15 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravityModifier;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool isOnGround = true;
     public bool gameOver = false;
 =======
     public bool isOnGround = true; 
 >>>>>>> master
+=======
+    public bool isOnGround = true; 
+>>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 
     private void Start()
     {
@@ -47,6 +51,7 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
@@ -61,5 +66,8 @@ public class PlayerController : MonoBehaviour
 =======
         isOnGround = true;
 >>>>>>> master
+=======
+        isOnGround = true;
+>>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
     }
 }
