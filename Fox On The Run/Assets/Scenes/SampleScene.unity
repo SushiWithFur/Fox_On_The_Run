@@ -530,11 +530,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
   - {fileID: 2100000, guid: 4bd111a4daab8426d854ccf84f493112, type: 2}
-=======
-  - {fileID: 2100000, guid: 19e296062a29b4b3cbeed1897a7a75ce, type: 2}
->>>>>>> master
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -670,6 +666,7 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
 =======
   m_RootOrder: 2
@@ -774,6 +771,9 @@ Transform:
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 =======
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
+=======
+  m_RootOrder: 5
+>>>>>>> parent of a50a0b9... Merge remote-tracking branch 'origin/master'
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091373678
 GameObject:
@@ -892,6 +892,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   gameOver: 0
 =======
 >>>>>>> master
@@ -899,6 +900,9 @@ MonoBehaviour:
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 =======
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
+=======
+  gameOver: 0
+>>>>>>> parent of a50a0b9... Merge remote-tracking branch 'origin/master'
 --- !u!65 &2091373684
 BoxCollider:
   m_ObjectHideFlags: 0

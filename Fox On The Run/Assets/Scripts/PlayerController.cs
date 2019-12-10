@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool isOnGround = true;
     public bool gameOver = false;
 =======
@@ -24,6 +25,10 @@ public class PlayerController : MonoBehaviour
 =======
     public bool isOnGround = true; 
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
+=======
+    public bool isOnGround = true;
+    public bool gameOver = false;
+>>>>>>> parent of a50a0b9... Merge remote-tracking branch 'origin/master'
 
     private void Start()
     {
@@ -57,6 +62,9 @@ public class PlayerController : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a50a0b9... Merge remote-tracking branch 'origin/master'
         if(collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
@@ -68,6 +76,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
         }
        
+<<<<<<< HEAD
 =======
         isOnGround = true;
 >>>>>>> master
@@ -77,5 +86,7 @@ public class PlayerController : MonoBehaviour
 =======
         isOnGround = true;
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
+=======
+>>>>>>> parent of a50a0b9... Merge remote-tracking branch 'origin/master'
     }
 }
