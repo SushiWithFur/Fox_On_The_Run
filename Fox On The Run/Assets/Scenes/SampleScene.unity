@@ -577,6 +577,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+<<<<<<< HEAD
 --- !u!1 &2008811361
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +674,8 @@ Transform:
 =======
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+=======
+>>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 --- !u!1 &2008811361
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,9 +767,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+<<<<<<< HEAD
 >>>>>>> master
 =======
   m_RootOrder: 6
+>>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
+=======
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091373678
@@ -885,9 +891,12 @@ MonoBehaviour:
   isOnGround: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   gameOver: 0
 =======
 >>>>>>> master
+=======
+>>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 =======
 >>>>>>> parent of 933d72d... Fixed backup error, lost some data, reworking lost data
 --- !u!65 &2091373684
