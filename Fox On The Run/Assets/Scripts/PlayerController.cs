@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public bool isOnGround = true;
     public bool gameOver = false;
+    private Animator playerAnim;
 
     private void Start()
     {
         playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
+        playerAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,19 +28,20 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isOnGround = false;
+            playerAnim.SetTrigger("Jump_trig");
         }
 
-        if (transform.position.z < -xRange)
+        if (transform.position.x < -xRange)
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
 
-        if (transform.position.z > xRange)
+        if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
         horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.up * Time.deltaTime * horizontalInput * speed);
+        transform.Translate(Vector3.forward * Time.deltaTime * horizontalInput * speed);
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -53,14 +56,6 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             Debug.Log("Game Over!");
         }
-
-
-        isOnGround = true;
-
-
-        isOnGround = true;
-
-        isOnGround = true;
 
     }
 }

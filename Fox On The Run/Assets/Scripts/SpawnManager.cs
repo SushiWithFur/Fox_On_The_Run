@@ -11,12 +11,16 @@ public class SpawnManager : MonoBehaviour
     private float startDelay = 2f;
     private float repeatRate = 2f;
     private PlayerController playerControllerScript;
+    private Animator playerAnim;
+
 
     // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("SpawnRandomObstacle", startDelay, repeatRate);
         playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        playerAnim = GetComponent<Animator>();
+        playerAnim.SetTrigger("Run_Trig");
     }
 
     void SpawnRandomObstacle()
